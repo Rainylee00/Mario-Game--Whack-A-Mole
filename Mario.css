@@ -1,0 +1,51 @@
+/*--程序来源：
+https://www.youtube.com/watch?v=ej8SatOj3V4
+Whack a Mole Game in Javascript HTML CSS */
+
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: url(./mario-bg.jpg);
+    background-size: cover;
+
+}
+
+#board{
+    width: 540px;
+    height: 540px;
+    /* background-color: green; */
+
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    background: url(./soil.png);
+    background-size: cover;
+    border: 10px solid white;
+    border-radius: 25px;
+    
+}
+
+#board div {
+    width: 180px;
+    height:180px;
+    background: url(./pipe.png);
+    background-size: cover;
+
+}
+
+
+#board div img {
+    /*all image tags inside the div */
+    width: 100px;
+    height: 100px;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+
